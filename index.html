@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My webiste design</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/ead78b006f.js"></script>
+
+</head>
+<body>
+   <section class="header">
+       <nav>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="resume.html">RESUME</a></li>
+            </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()" ></i>
+
+
+       </nav>
+<div class="text-box">
+    <h1> Hello! I`m Anthony and I am an aspiring UXID designer</h1>
+    <p>Here you will be able to get a sense of who I am as a person and what ignites my passions in life.</p>
+    <a href="aboutme.html">
+     <div class="hero-btn"> <button>Learn More</button>
+    </a>
+</div>
+   </section>
+  
+<section class="passions">
+    <h1>Passions</h1>
+    <p>As I`ve gotten older, my definition of life has been constantly changing at an everyday pace. 
+    Along the way, these 3 things have been the most recent passions that I`ve recently discovered by getting 
+    out of my comfort zone. The one main lesson that I have learned from each of these passions is that anything 
+    new that you decide to take on, will always be a struggle initally but over time, it can be polished to a very
+    useful skills I`ve personally symbolized.
+    </p>
+<div class="row">
+    <div class="passion-col">
+        <img src="images/photography.png">
+        <h2>Photography</h2>
+        <h3>Attention</h3>
+        <p>I was always drawn to Photography in a way where I was afraid from making the transition
+            to a higher level because of how addicted it could be. Turns out... I was right! Now I almost always 
+            have my camera on me and ready to capture anything that catches my eye.
+        </p>
+
+    </div>
+    <div class="passion-col">
+        <img src="images/volleyball.jpg">
+        <h2>Volleyball</h2>
+        <h3>Reliance</h3>
+        <p>I started playing Volleyball in High School and it was one of the best decisions I`ve ever made. 
+            The sport taught me how to build connections and emphasized the critical importance of an team environment.
+            Growing up I had a hard time opening up to people and had a constant sense of self-reliance which I`m glad to 
+            have grown out of.</p>
+    </div>
+    <div class="passion-col">
+        <img src="images/drawing.JPG">
+        <h2>Drawing</h2>
+        <h3>Patience</h3>
+        <p>When I saw a drawing course on my schedule for the fall term, I was honestly not looking forward to it at all
+            because of the thought of overwhelming embarassment. I`ve never been a fan of drawing nor had the talent but 
+            over the course of this term, I now realize that I just had to give the process a chance. Looking back at my
+            struggles in the beginning and comparing it to the results now, I`m proud of what I was able to accomplish.
+        </p>
+    </div>
+</section>
+
+<section class="footer">
+    <h3>Socials</h3>
+    <div class="icons">
+        <a href="https://www.instagram.com/aht4218/" target="_blank">
+            <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/anthony.tieu.98/" target="_blank">
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/anthony-tieu-a380b1213/" target="_blank">
+            <i class="fa fa-linkedin"></i>
+        </a>
+        
+    </div>
+    <p> Made by Anthony Tieu <i class="fa fa-star-o"></i></p>
+
+</section>
+
+   <script>
+       var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+           navLinks.style.right = "0";
+       }
+       function hideMenu(){
+           navLinks.style.right = "-200px";
+       }
+   </script>
+</body>
+</html>

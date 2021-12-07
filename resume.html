@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My webiste design</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/ead78b006f.js"></script>
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+             <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="resume.html">RESUME</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+ 
+ 
+        </nav>
+       <h1>Resume/Gallery</h1>
+       <div class="resume-col">
+        <img src="images/Resume.png" >
+    </div>
+       
+
+</section>   
+
+<section class="gallery">
+    <h1>Photography Prints</h1>
+    <p>B&W Shots over the course of this term.</p>
+    <div class="row">
+        <div class="gallery-col">
+            <img src="images/Tieu.PF1.jpg">
+        </div>
+        <div class="gallery-col">
+            <img src="images/Tieu.PF2.jpg">
+
+        </div>
+        <div class="gallery-col">
+            <img src="images/Tieu.PF3.jpg">
+
+        </div>
+        <div class="gallery-col">
+            <img src="images/Tieu.PF6.jpg">
+
+        </div>
+        <div class="gallery-col">
+            <img src="images/Tieu.PF4.jpg">
+
+        </div>
+        <div class="gallery-col">
+            <img src="images/Tieu.PF5.jpg">
+
+        </div>
+        <div class="gallery-col">
+            <img src="images/photography.png">
+
+        </div>
+        <div class="gallery-col">
+            <img src="images/ground.png">
+
+        </div>
+        <div class="gallery-col">
+            <img src="images/Tree.png">
+
+        </div>
+    </div>
+</section>
+  
+  
+
+<section class="footer">
+    <h3>Socials</h3>
+    <div class="icons">
+        <a href="https://www.instagram.com/aht4218/" target="_blank">
+            <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/anthony.tieu.98/" target="_blank">
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/anthony-tieu-a380b1213/" target="_blank">
+            <i class="fa fa-linkedin"></i>
+        </a>
+    </div>
+    <p> Made by Anthony Tieu <i class="fa fa-star-o"></i></p>
+
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
