@@ -3,6 +3,7 @@
     padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
+/* NavLinks */
 .header{
     min-height: 100vh;
     width: 100%;
@@ -97,7 +98,7 @@ nav .fa{
     }
     .nav-links{
         position: fixed;
-        background: #f44336;
+        background: lightgray;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -120,7 +121,7 @@ nav .fa{
 
     }
 }
-
+/* Passions Home Page */
 .passions{
     width: 80%;
     margin: auto;
@@ -175,13 +176,27 @@ h2{
     width: 100%;
 }
 
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
 
 @media(max-width: 700px){
     .row{
         flex-direction: column;
     }
 }
-
+/* Footer */
 .footer{
     width: 100%;
     text-align: center;
@@ -206,7 +221,7 @@ h2{
 .fa-star-o{
     color: #f44336;
 }
-
+/* About Me */
 .sub-header{
     height: 50vh;
     width: 100%;
@@ -258,7 +273,7 @@ h2{
     color: white;
 
 }
-
+/* Resume */
 .resume-col{
     flex-basis: 30%;
     background: #fff3f3;
@@ -272,7 +287,7 @@ h2{
     padding-top: 50px;
     width: 100%;
 }
-
+/* Gallery Images */
 .gallery-col{
     flex-basis: 32%;
     border-radius: 10px;
